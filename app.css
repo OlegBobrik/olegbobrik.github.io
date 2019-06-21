@@ -382,6 +382,7 @@ img {
   position: relative;
   min-width: 150px;
   height: 50px;
+  margin-bottom: 50px;
   padding: 3px 0 8px 26px;
   font-weight: bold;
   line-height: 24px;
@@ -436,13 +437,17 @@ img {
   .development__title {
     font-size: 24px; }
   .development__list {
-    padding: 0 20px; } }
+    padding: 0 20px; }
+  .development__button {
+    margin-bottom: 30px; } }
 
 @media screen and (max-width: 320px) {
   .development__title {
     font-size: 30px; }
   .development__list {
-    padding: 0; } }
+    padding: 0; }
+  .development__button {
+    margin-bottom: 20px; } }
 
 .card {
   width: 33%;
